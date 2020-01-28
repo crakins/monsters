@@ -2,7 +2,7 @@ import React from 'react';
 import './search-box.styles.css'
 
 // when you need access to state, use a functional component 
-export const SearchBox = ({ placeholder, handleChange }) => (
+const SearchBox = ({ placeholder, handleChange }) => (
     <input
         className='search'
         type='search' 
@@ -10,3 +10,5 @@ export const SearchBox = ({ placeholder, handleChange }) => (
         onChange={handleChange} 
     /> 
 );
+
+export default SearchBox;

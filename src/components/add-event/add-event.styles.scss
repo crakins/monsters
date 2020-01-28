@@ -1,0 +1,15 @@
+.add-event {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 10px 100px;
+
+    .title {
+        margin: 10px 10px 10px 10px;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: space-between;
+    }
+}
